@@ -1,4 +1,4 @@
-python3 /Users/davidlyle/Desktop/scripts/pandas/pythonfiles/randomsample.py
+python3 ./pythonfiles/randomsample.py
 sleep 20s
 osascript -e 'tell application "Terminal" to close first window' & exit
 

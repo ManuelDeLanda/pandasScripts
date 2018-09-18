@@ -31,4 +31,3 @@ csv_buffer = StringIO()
 df3[a].to_csv(csv_buffer, header=False, index=False, sep='\t' )
 pyperclip.copy(csv_buffer.getvalue())
 
-# We have to use oneworldsync with Walmart
