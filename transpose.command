@@ -1,0 +1,2 @@
+python3 -c "from io import StringIO ; import pandas ; import pyperclip; import sys ; df=pandas.read_csv(StringIO(pyperclip.paste()), sep='\t') ; df = df.transpose().transpose().transpose() ; csv_buffer = StringIO() ; df.to_csv(csv_buffer, header=False, sep='\t' ) ; pyperclip.copy(csv_buffer.getvalue())" 
+osascript -e 'tell application "Terminal" to close first window' & exit
