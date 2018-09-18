@@ -6,7 +6,6 @@ import pdb
 
 sHeader = input("Is the first row header? y/n ")
 
-
 sNumOfSamples = input("How many samples rows from each column do you want? ")
 
 # CLIPBOARD DATA
