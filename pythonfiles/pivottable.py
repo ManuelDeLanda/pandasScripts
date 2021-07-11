@@ -1,4 +1,4 @@
-from io import StringIO # OLD!
+from io import StringIO # old
 import pandas as pd
 import pyperclip; import sys
 import numpy as np
