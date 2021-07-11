@@ -1,4 +1,4 @@
-from io import StringIO
+from io import StringIO # OLD-replace with mac version
 import pandas as pd
 import pyperclip; import sys
 import pdb
@@ -30,4 +30,3 @@ if len(a) == 0:
 csv_buffer = StringIO()
 df3[a].to_csv(csv_buffer, header=False, index=False, sep='\t' )
 pyperclip.copy(csv_buffer.getvalue())
-
