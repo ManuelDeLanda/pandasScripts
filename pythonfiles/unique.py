@@ -1,4 +1,4 @@
-from io import StringIO # test
+from io import StringIO
 import pandas as pd
 import pyperclip; import sys
 import pdb
